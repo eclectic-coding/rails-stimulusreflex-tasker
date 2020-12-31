@@ -26,6 +26,9 @@ group :development do
   gem "guard-rspec"
   gem "listen", "~> 3.3"
   gem "rack-mini-profiler", "~> 2.0"
+  gem "rubocop"
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec"
   gem "spring"
   gem "web-console", ">= 4.1.0"
 end
@@ -33,7 +36,7 @@ end
 group :test do
   gem "capybara", ">= 3.26"
   gem "selenium-webdriver"
-  gem 'simplecov', require: false
+  gem "simplecov", require: false
   gem "webdrivers"
 end
 
