@@ -96,6 +96,8 @@ GEM
     erubi (1.10.0)
     factory_bot (6.1.0)
       activesupport (>= 5.0.0)
+    faker (2.15.1)
+      i18n (>= 1.6, < 2)
     ffi (1.14.2)
     formatador (0.2.5)
     fuubar (2.5.0)
@@ -310,6 +312,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   database_cleaner
   factory_bot_rails!
+  faker
   fuubar
   guard
   guard-rspec
