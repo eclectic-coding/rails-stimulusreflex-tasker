@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+
 RSpec.feature "Statics", type: :feature do
   scenario "valid index path" do
     visit "/"

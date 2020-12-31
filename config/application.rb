@@ -13,7 +13,7 @@ module Tasker
 
     config.generators do |g|
       g.stylesheets false
-      g.helper false
+      g.helper nil
       g.test_framework false
     end
 
