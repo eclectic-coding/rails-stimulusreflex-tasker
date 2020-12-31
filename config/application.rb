@@ -13,8 +13,8 @@ module Tasker
 
     config.generators do |g|
       g.stylesheets false
-      g.helper nil
-      g.test_framework false
+      g.helper false
+      g.test_framework nil
     end
 
     # Configuration for the application, engines, and railties goes here.
