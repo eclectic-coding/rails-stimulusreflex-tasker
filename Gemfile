@@ -10,6 +10,7 @@ gem "sass-rails", ">= 6"
 gem "stimulus_reflex", "~> 3.4.0"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
+gem "bootstrap_form"
 
 
 gem "bootsnap", ">= 1.4.4", require: false
