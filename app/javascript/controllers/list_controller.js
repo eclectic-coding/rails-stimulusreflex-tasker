@@ -14,8 +14,8 @@ export default class extends Controller {
     }
 
     createTaskSuccess(){
-        console.log('Success lifecycle')
         this.formTarget.reset()
+        console.log('Was I fired')
 
     }
 

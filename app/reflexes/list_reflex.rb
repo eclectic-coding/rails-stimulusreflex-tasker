@@ -4,7 +4,8 @@ class ListReflex < StimulusReflex::Reflex
     sleep 2
 
     list = List.find(element.dataset.list_id)
-    list.tasks.create(task_params)
+    @new_task = list.tasks.create(task_params)
+    @new_task = Task.new if @new_task.persisted?
   end
 
   private
