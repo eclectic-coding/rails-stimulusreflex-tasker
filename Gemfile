@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.7.2"
 
+gem "acts_as_list"
 gem "jbuilder", "~> 2.7"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
