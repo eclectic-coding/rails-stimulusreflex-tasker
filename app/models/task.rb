@@ -7,6 +7,8 @@ class Task < ApplicationRecord
 
   scope :incomplete_first, -> { order(completed_at: :desc) }
 
+  delegate :name, to: :assignee, prefix: true, allow_nil: true
+
   def complete?
     completed_at.present?
   end
