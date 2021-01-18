@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  devise_for :users
+
   root "lists#index"
 
-  devise_for :users
+  resources :lists, only: %i[new create]
 
 end

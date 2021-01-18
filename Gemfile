@@ -1,20 +1,19 @@
 source "https://rubygems.org"
 
-ruby "2.7.2"
+ruby "3.0.0"
 
 gem "acts_as_list"
+gem "bootsnap", ">= 1.4.4", require: false
+gem "bootstrap_form"
 gem "jbuilder", "~> 2.7"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.0"
+gem "rexml"
 gem "sass-rails", ">= 6"
 gem "stimulus_reflex", "~> 3.4.0"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
-gem "bootstrap_form"
-
-
-gem "bootsnap", ">= 1.4.4", require: false
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
