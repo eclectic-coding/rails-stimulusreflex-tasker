@@ -1,7 +1,6 @@
 import {Controller} from "stimulus"
 import StimulusReflex from "stimulus_reflex"
 import Sortable from "sortablejs"
-import log from "stimulus_reflex/javascript/log";
 
 export default class extends Controller {
     static targets = ["form", "tasks"]
