@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   root "lists#index"
 
-  resources :lists, only: %i[new create]
+  resources :lists, only: %i[new create destroy]
 
 end
