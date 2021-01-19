@@ -5,6 +5,7 @@ ruby "3.0.0"
 gem "acts_as_list"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap_form"
+gem "devise", "~> 4.7"
 gem "jbuilder", "~> 2.7"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
@@ -45,4 +46,3 @@ end
 
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
-gem "devise", "~> 4.7"
