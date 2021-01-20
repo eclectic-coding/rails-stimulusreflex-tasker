@@ -5,7 +5,7 @@ class Task < ApplicationRecord
   belongs_to :completer, class_name: "User", optional: true
   belongs_to :creator, class_name: "User"
   belongs_to :list
-  has_many :comments, as: :commentable, dependent: :destroy
+  has_many :comments, -> { order(created_at: :asc) }, as: :commentable
 
   validates :name, presence: true
 
